@@ -40,7 +40,7 @@ const Contact = () => {
                         id="name"
                         name="name"
                         className="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                        placeholder="e.g. John Doe"
+                        placeholder="your name"
                      />
                   </div>
                   <div className="flex flex-col">
@@ -55,7 +55,7 @@ const Contact = () => {
                         id="email"
                         name="email"
                         className="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                        placeholder="e.g.name@gmail.com"
+                        placeholder="your email address"
                      />
                   </div>
                </div>
@@ -71,7 +71,7 @@ const Contact = () => {
                      id="tel"
                      name="tel"
                      className="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                     placeholder="+91 9999796188"
+                     placeholder="Your Phone-number "
                   />
                </div>
                <div className="flex flex-col">
@@ -123,6 +123,7 @@ const Contact = () => {
                      type="submit"
                      disabled={state.submitting}
                   >
+                     Submit
                   </button>
                </div>
             </form>
