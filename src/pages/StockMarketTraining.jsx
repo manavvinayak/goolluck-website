@@ -45,11 +45,11 @@ const StockMarketTraining = ({ training }) => {
       <div>
          <div className="w-full px-5 lg:px-10">
             <div className="flex items-center justify-center w-full">
-               <h2 className="font-semibold text-primary text-center mt-28  text-5xl ">
+               <h2 className="font-semibold text-primary text-center mt-28 text-3xl md:text-4xl lg:text-5xl">
                   Available <span>Courses</span>
                </h2>
             </div>
-            <div className="flex mt-14 ml-96 gap-14">
+            <div className="flex flex-wrap justify-center mt-14 gap-10 md:gap-14 px-5">
                {courses.map((course) => (
                   <CourseCards
                      courseName={course.courseName}
@@ -85,7 +85,7 @@ const StockMarketTraining = ({ training }) => {
             </div>
 
             <div className="flex flex-col items-center py-5">
-               <h3 className="text-4xl font-bold mt-4">
+               <h3 className="text-4xl font-bold">
                   Workshop @ <span>IIT - Guwahati</span>
                </h3>
                <div className="flex flex-wrap items-center justify-center gap-6 py-5 w-full">
