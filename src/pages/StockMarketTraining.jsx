@@ -9,28 +9,27 @@ const StockMarketTraining = ({ training }) => {
    const [availableCourse, setAvailableCourses] = useState([]);
    const courses = [
       {
-        id: "excel",
-        title: "Excel",
-        description: "Learn Excel from scratch to advanced.",
-        price:"100",
-        courseName:"Excel",
-        Author:"Sameul Harry",
-        Scheduled : "Live classes",
-        imgpath: "Gula.png"
+         id: "excel",
+         title: "Excel",
+         description: "Learn Excel from scratch to advanced.",
+         price: "100",
+         courseName: "Excel",
+         Author: "Sameul Harry",
+         Scheduled: "Live classes",
+         imgpath: "Gula.png",
       },
       {
-        id: "ms-office",
-        title: "MS Office",
-        description: "Master MS Office tools like Word, PowerPoint, and Excel.",
-        price:"120",
-        courseName:"ms-office",
-        Author:"A.W qBravo",
-        Scheduled : "Live classes",
-        imgpath: "Join.png"
-
+         id: "ms-office",
+         title: "MS Office",
+         description:
+            "Master MS Office tools like Word, PowerPoint, and Excel.",
+         price: "120",
+         courseName: "ms-office",
+         Author: "A.W qBravo",
+         Scheduled: "Live classes",
+         imgpath: "Join.png",
       },
-    ];
-   
+   ];
 
    useEffect(() => {
       axios
@@ -47,23 +46,23 @@ const StockMarketTraining = ({ training }) => {
          <div className="w-full px-5 lg:px-10">
             <div className="flex items-center justify-center w-full">
                <h2 className="font-semibold text-primary text-center mt-28  text-5xl ">
-          Available <span>Courses</span> 
-        </h2>
-      </div>
-      <div className="flex mt-14 ml-96 gap-14">
-        {courses.map((course) => (
-          <CourseCards
-            courseName={course.courseName}
-            key={course.id}
-            price={course.price}
-            Author={course.Author}
-            Scheduled={course.Scheduled}
-            imgpath={course.imgpath}
-          />
-        ))}
+                  Available <span>Courses</span>
+               </h2>
+            </div>
+            <div className="flex mt-14 ml-96 gap-14">
+               {courses.map((course) => (
+                  <CourseCards
+                     courseName={course.courseName}
+                     key={course.id}
+                     price={course.price}
+                     Author={course.Author}
+                     Scheduled={course.Scheduled}
+                     imgpath={course.imgpath}
+                  />
+               ))}
             </div>
 
-            <div className="flex flex-col lg:flex-row gap-10 items-center justify-center w-full py-5">
+            {/* <div className="flex flex-col lg:flex-row gap-10 items-center justify-center w-full py-5">
                {availableCourse.map((course, idx) => {
                   return (
                      <Link to={`/stock-market-training/course/${course._id}`}>
@@ -78,15 +77,15 @@ const StockMarketTraining = ({ training }) => {
                      </Link>
                   );
                })}
-            </div>
+            </div> */}
          </div>
-         <div className="w-full px-5 lg:px-10">
+         <div className="w-full px-5 lg:px-10 mt-16">
             <div className="flex items-center justify-center w-full">
                <h2 className="text-4xl font-bold">{title}</h2>
             </div>
 
             <div className="flex flex-col items-center py-5">
-               <h3 className="text-4xl font-bold">
+               <h3 className="text-4xl font-bold mt-4">
                   Workshop @ <span>IIT - Guwahati</span>
                </h3>
                <div className="flex flex-wrap items-center justify-center gap-6 py-5 w-full">

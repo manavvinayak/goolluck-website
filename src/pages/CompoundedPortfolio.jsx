@@ -98,9 +98,9 @@ const CompoundedPortfolio = () => {
    };
 
    return (
-      <div className="w-full py-10 px-5 ">
+      <div className="w-full py-10 px-5   ">
          <div className="container mx-auto">
-            <div className="flex flex-col lg:flex-row lg:gap-10">
+            <div className="flex flex-col lg:flex-row lg:gap-10 ">
                <div className="flex flex-col items-center gap-5">
                   <div className="flex flex-col items-center justify-center bg-background shadow-md shadow-secondary p-5 rounded-lg max-h-[500px] md:sticky md:top-20">
                      <div className="flex flex-col items-center gap-2">
