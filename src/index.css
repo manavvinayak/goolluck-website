@@ -75,7 +75,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .parent {
-    width: 300px;
+    width: calc(100%/11px);
     height: 400px;
     perspective: 1000px;
   }
