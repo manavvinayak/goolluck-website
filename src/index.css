@@ -73,7 +73,7 @@ body {
   perspective: 1000px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .parent {
     width: 300px;
     height: 400px;
