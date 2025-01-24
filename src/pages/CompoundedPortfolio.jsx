@@ -98,8 +98,8 @@ const CompoundedPortfolio = () => {
    };
 
    return (
-      <div className="w-full py-14 px-5 md:px-10 lg:px-20 ">
-   <div className="container mx-auto">
+      <div className="w-full py-10 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20 ">
+   <div className="container mx-auto ">
       <div className="flex flex-col lg:flex-row lg:gap-16 gap-10">
          {/* Input Section */}
          <div className="flex flex-col items-center gap-8 w-full lg:w-1/3">
