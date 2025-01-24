@@ -32,7 +32,8 @@ const Footer = () => {
                      </div>
                      <div className="flex items-start gap-2">
                         <FaPhoneAlt size={15} className="text-secondary" />
-                        <p>+91 9999974265, 0124-4200901,4200903</p>
+                        <p>+919999974265,  <br/>
+                         0124-4200901,   4200903</p>
                      </div>
                      <div className="flex items-start gap-2">
                         <FaLocationDot size={20} className="text-secondary" />
