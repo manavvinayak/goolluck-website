@@ -161,12 +161,12 @@ const CompoundedPortfolio = () => {
             <table className="min-w-full border-collapse">
                <thead className="bg-background text-primary text-lg">
                   <tr className="border-b border-secondary">
-                     <th className="px-6 py-4 text-center font-bold uppercase tracking-wider text-orange-500   ">Years</th>
-                     <th className="px-6 py-4 text-center font-bold uppercase tracking-wider text-orange-500  ">Initial Investment</th>
-                     <th className="px-6 py-4 text-center font-bold uppercase tracking-wider text-orange-500  ">Growth Rate</th>
-                     <th className="px-6 py-4 text-center font-bold uppercase tracking-wider text-orange-500  ">Value</th>
-                     <th className="px-6 py-4 text-center font-bold uppercase tracking-wider text-orange-500 ">Annual SIP</th>
-                     <th className="px-6 py-4 text-center font-bold uppercase tracking-wider text-orange-500 ">Portfolio Amount</th>
+                     <th className="px-4 py-2 text-center text-sm md:text-xl font-bold  uppercase tracking-wider text-orange-500 ">Years</th>
+                     <th className="px-4 py-2 text-center text-sm md:text-xl font-bold  uppercase tracking-wider text-orange-500  ">Initial Investment</th>
+                     <th className="px-4 py-2 text-center text-sm md:text-xl font-bold  uppercase tracking-wider text-orange-500  ">Growth Rate</th>
+                     <th className="px-4 py-2 text-center text-sm md:text-xl font-bold  uppercase tracking-wider text-orange-500  ">Value</th>
+                     <th className="px-4 py-2 text-center text-sm md:text-xl font-bold  uppercase tracking-wider text-orange-500 ">Annual SIP</th>
+                     <th className="px-4 py-2 text-center text-sm md:text-xl font-bold  uppercase tracking-wider text-orange-500 ">Portfolio Amount</th>
                   </tr>
                </thead>
                <tbody className="divide-y divide-primary text-lg">
