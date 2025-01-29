@@ -106,7 +106,7 @@ const CompoundedPortfolio = () => {
             <div className="flex flex-col items-center justify-center bg-background shadow-lg shadow-secondary p-8 rounded-2xl w-full max-w-md">
                <div className="flex flex-col items-center gap-4 w-full">
                   <div className="flex flex-col items-center gap-3 w-full">
-                     <p className="text-base md:text-lg font-medium">SIP Amount:</p>
+                     <p className="text-base md:text-xl font-medium">SIP Amount:</p>
                      <input
                         type="number"
                         className="input-field w-full px-4 py-3 text-lg border border-secondary rounded-lg"
@@ -116,7 +116,7 @@ const CompoundedPortfolio = () => {
                   </div>
 
                   <div className="flex flex-col items-center gap-3 w-full">
-                     <p className="text-base md:text-lg font-medium">Current Portfolio Value:</p>
+                     <p className="text-base md:text-xl font-medium">Current Portfolio Value:</p>
                      <input
                         type="number"
                         className="input-field w-full px-4 py-3 text-lg border border-secondary rounded-lg"
@@ -139,7 +139,7 @@ const CompoundedPortfolio = () => {
                   </div>
 
                   <div className="flex flex-col items-center gap-3 w-full">
-                     <p className="text-base md:text-lg font-medium">Period (Years):</p>
+                     <p className="text-base md:text-xl font-medium">Period (Years):</p>
                      <input
                         type="number"
                         min="1"
