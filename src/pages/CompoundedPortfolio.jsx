@@ -106,7 +106,7 @@ const CompoundedPortfolio = () => {
             <div className="flex flex-col items-center justify-center bg-background shadow-lg shadow-secondary p-8 rounded-2xl w-full max-w-md">
                <div className="flex flex-col items-center gap-4 w-full">
                   <div className="flex flex-col items-center gap-3 w-full">
-                     <p className="text-lg font-medium">SIP Amount:</p>
+                     <p className="text-base md:text-lg font-medium">SIP Amount:</p>
                      <input
                         type="number"
                         className="input-field w-full px-4 py-3 text-lg border border-secondary rounded-lg"
@@ -116,7 +116,7 @@ const CompoundedPortfolio = () => {
                   </div>
 
                   <div className="flex flex-col items-center gap-3 w-full">
-                     <p className="text-lg font-medium">Current Portfolio Value:</p>
+                     <p className="text-base md:text-lg font-medium">Current Portfolio Value:</p>
                      <input
                         type="number"
                         className="input-field w-full px-4 py-3 text-lg border border-secondary rounded-lg"
@@ -126,7 +126,7 @@ const CompoundedPortfolio = () => {
                   </div>
 
                   <div className="flex flex-col items-center gap-3 w-full">
-                     <p className="text-lg font-medium">Growth Rate (%):</p>
+                     <p className="text-base md:text-xl font-medium">Growth Rate (%):</p>
                      <input
                         type="number"
                         step="0.1"
@@ -139,7 +139,7 @@ const CompoundedPortfolio = () => {
                   </div>
 
                   <div className="flex flex-col items-center gap-3 w-full">
-                     <p className="text-lg font-medium">Period (Years):</p>
+                     <p className="text-base md:text-lg font-medium">Period (Years):</p>
                      <input
                         type="number"
                         min="1"
@@ -149,7 +149,7 @@ const CompoundedPortfolio = () => {
                      />
                   </div>
 
-                  <Button className="w-auto py-3 text-lg" onClick={calculatePortfolioValues}>
+                  <Button className="w-auto py-3 text-base md:text-lg" onClick={calculatePortfolioValues}>
                      Calculate
                   </Button>
                </div>
@@ -161,12 +161,12 @@ const CompoundedPortfolio = () => {
             <table className="min-w-full border-collapse">
                <thead className="bg-background text-primary text-lg">
                   <tr className="border-b border-secondary">
-                     <th className="px-4 py-2 text-center text-sm md:text-xl font-bold  uppercase tracking-wider text-orange-500 ">Years</th>
-                     <th className="px-4 py-2 text-center text-sm md:text-xl font-bold  uppercase tracking-wider text-orange-500  ">Initial Investment</th>
-                     <th className="px-4 py-2 text-center text-sm md:text-xl font-bold  uppercase tracking-wider text-orange-500  ">Growth Rate</th>
-                     <th className="px-4 py-2 text-center text-sm md:text-xl font-bold  uppercase tracking-wider text-orange-500  ">Value</th>
-                     <th className="px-4 py-2 text-center text-sm md:text-xl font-bold  uppercase tracking-wider text-orange-500 ">Annual SIP</th>
-                     <th className="px-4 py-2 text-center text-sm md:text-xl font-bold  uppercase tracking-wider text-orange-500 ">Portfolio Amount</th>
+                     <th className="px-4 py-2 text-center text-base md:text-xl font-bold  uppercase tracking-wider text-orange-500 ">Years</th>
+                     <th className="px-4 py-2 text-center text-base md:text-xl font-bold  uppercase tracking-wider text-orange-500  ">Initial Investment</th>
+                     <th className="px-4 py-2 text-center text-base md:text-xl font-bold  uppercase tracking-wider text-orange-500  ">Growth Rate</th>
+                     <th className="px-4 py-2 text-center text-base md:text-xl font-bold  uppercase tracking-wider text-orange-500  ">Value</th>
+                     <th className="px-4 py-2 text-center text-base md:text-xl font-bold  uppercase tracking-wider text-orange-500 ">Annual SIP</th>
+                     <th className="px-4 py-2 text-center text-base md:text-xl font-bold  uppercase tracking-wider text-orange-500 ">Portfolio Amount</th>
                   </tr>
                </thead>
                <tbody className="divide-y divide-primary text-lg">
