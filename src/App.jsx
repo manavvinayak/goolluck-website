@@ -10,6 +10,7 @@ import CompoundedPortfolio from "./pages/CompoundedPortfolio";
 import LifeAtGoolluck from "./pages/LifeAtGoolluck";
 import SingleCoursePage from "./pages/SingleCoursePage";
 import CourseDetails from "./pages/CourseDetails";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 const App = () => {
    const { id } = useParams();
@@ -21,6 +22,7 @@ const App = () => {
                <Route path="/" element={<Home />} />
                <Route path="/about" element={<About about={data.about} />} />
                <Route path="/contact" element={<Contact />} />
+               <Route path="/privacy" element= {<PrivacyPolicy/>}/>
                <Route
                   path="/stock-market-training"
                   element={

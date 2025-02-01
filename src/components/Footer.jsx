@@ -3,8 +3,10 @@ import { IoMdMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+   const navigate = useNavigate();
    return (
       <div className="w-full mt-10 p-3 px-5 lg:px-10">
          <div className="container mx-auto">
@@ -45,9 +47,9 @@ const Footer = () => {
                <div className="flex flex-col items-start gap-3 text-lg">
                   <p className="font-bold text-primary">Privacy</p>
                   <div className="flex flex-col gap-2">
-                     <p>FAQ</p>
-                     <p>Terms</p>
-                     <p>Privacy</p>
+                     <p className="cursor-pointer">FAQ</p>
+                     <p className="cursor-pointer">Terms</p>
+                     <p className="cursor-pointer"><Link to="/privacy">Privacy</Link></p>
                   </div>
                </div>
             </div>
