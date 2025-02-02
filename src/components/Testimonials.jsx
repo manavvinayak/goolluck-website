@@ -25,7 +25,9 @@ const Testimonials = ({ testimonials }) => {
                      {leftReviews.map((review, index) => (
                         <div
                            key={index}
-                           className={`w-full max-w-md ${colors[index % colors.length]} p-4 rounded-lg flex items-center shadow-md`}
+                           className={`min-w-[200px] max-w-[260px] md:max-w-md lg:max-w-lg xl:max-w-xl ${colors[index % colors.length]} p-4 rounded-lg flex items-center shadow-md`}
+
+
                            style={{ margin: '0 15px' }}
                         >
                            <TestimonialBox review={review} />
