@@ -14,6 +14,8 @@ export default {
 		  fontFamily: {
 			 heading: "Urbanist",
 			 bodyContent: "lufga",
+			 montserrat: ["Montserrat", "sans-serif"],
+			 georgia: ["Georgia", "serif"],
 		  },
 	   },
 	},

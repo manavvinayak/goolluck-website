@@ -48,7 +48,7 @@ const Footer = () => {
                   <p className="font-bold text-primary">Privacy</p>
                   <div className="flex flex-col gap-2">
                      <p className="cursor-pointer">FAQ</p>
-                     <p className="cursor-pointer">Terms</p>
+                     <p className="cursor-pointer"><Link to="/termsandconditions">Terms </Link></p>
                      <p className="cursor-pointer"><Link to="/privacy">Privacy</Link></p>
                   </div>
                </div>

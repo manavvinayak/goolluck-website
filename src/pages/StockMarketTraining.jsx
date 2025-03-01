@@ -12,6 +12,7 @@ const StockMarketTraining = ({ training }) => {
          id: "excel",
          title: "Excel",
          description: "Learn Excel from scratch to advanced.",
+         detail: "Work Smarter, Not Harder – Excel Made Easy!",
          price: "100",
          courseName: "Excel",
          Author: "Sameul Harry",
@@ -19,13 +20,14 @@ const StockMarketTraining = ({ training }) => {
          imgpath: "Gula.png",
       },
       {
-         id: "ms-office",
+         id: "MS-Office",
          title: "MS Office",
          description:
             "Master MS Office tools like Word, PowerPoint, and Excel.",
          price: "120",
-         courseName: "ms-office",
-         Author: "A.W qBravo",
+         detail:"Simplify Work & Enhance Productivity with MS Office!",
+         courseName: "MS-Office",
+         Author: "A.W Bravo",
          Scheduled: "Live classes",
          imgpath: "Join.png",
       },
@@ -45,11 +47,11 @@ const StockMarketTraining = ({ training }) => {
       <div>
          <div className="w-full px-5 lg:px-10">
             <div className="flex items-center justify-center w-full">
-               <h2 className="font-semibold text-primary text-center mt-28 text-3xl md:text-4xl lg:text-5xl">
+               <h2 className="font-semibold text-primary text-center mt-20 text-3xl md:text-4xl lg:text-5xl">
                   Available <span>Courses</span>
                </h2>
             </div>
-            <div className="flex flex-wrap justify-center mt-14 gap-10 md:gap-14 px-5">
+            <div className="flex flex-wrap justify-center mt-14 gap-10 md:gap-28 px-5   ">
                {courses.map((course) => (
                   <CourseCards
                      courseName={course.courseName}
@@ -58,6 +60,7 @@ const StockMarketTraining = ({ training }) => {
                      Author={course.Author}
                      Scheduled={course.Scheduled}
                      imgpath={course.imgpath}
+                     description={course.detail}
                   />
                ))}
             </div>

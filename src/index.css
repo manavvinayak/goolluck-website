@@ -92,6 +92,17 @@ body {
   
 }
 
+/* For mobile devices (portrait) */
+@media (max-width: 480px) {
+  .card {
+    margin-top: 1.5rem;
+    width: 99%; /* Take up most of the screen width */
+    height: 97%; /* Adjust height */
+    border-radius: 20px; /* Smaller border radius */
+    padding: 4px; /* Adjust padding */
+  }
+}
+
 .glass {
   transform-style: preserve-3d;
   position: absolute;

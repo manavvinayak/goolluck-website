@@ -11,6 +11,8 @@ import LifeAtGoolluck from "./pages/LifeAtGoolluck";
 import SingleCoursePage from "./pages/SingleCoursePage";
 import CourseDetails from "./pages/CourseDetails";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsAndConditions from "./pages/Terms&Conditions";
+
 
 const App = () => {
    const { id } = useParams();
@@ -23,6 +25,8 @@ const App = () => {
                <Route path="/about" element={<About about={data.about} />} />
                <Route path="/contact" element={<Contact />} />
                <Route path="/privacy" element= {<PrivacyPolicy/>}/>
+               <Route path="/termsandconditions" element= {<TermsAndConditions/>}/>
+
                <Route
                   path="/stock-market-training"
                   element={

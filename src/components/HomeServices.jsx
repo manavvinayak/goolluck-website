@@ -12,14 +12,14 @@ const HomeServices = ({ homeServices }) => {
          </div>
 
          {/* Center the cards using justify-center and items-center */}
-         <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center w-full gap-4 sm:gap-5 mt-6 sm:mt-8">
+         <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center w-full gap-4 sm:gap-5 mt-6 sm:mt-8 ">
             {services.map((service, index) => {
                return (
                   <div
-                     className="parent mx-auto h-full w-full flex items-center justify-center p-2 sm:p-4"
+                     className=" parent mx-auto h-full w-full flex items-center justify-center p-2 sm:p-4 font-georgia"
                      key={index}
                   >
-                     <div className="card h-full w-full flex flex-col justify-start items-center p-4 sm:p-6 overflow-hidden">
+                     <div className="card   flex flex-col justify-start items-center   overflow-hidden md:h-5/6 w-full  ">
                         <div className="logo mb-2 sm:mb-4">
                            <span className="circle circle4"></span>
                            <span className="circle circle5 text-background text-base sm:text-xl font-bold">

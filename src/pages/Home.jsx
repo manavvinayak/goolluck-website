@@ -23,7 +23,7 @@ const Home = () => {
                   </p>
                   <Link to="/stock-market-training">
                   
-                     <Button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 hover:text-white" children="Get Started !!" />
+                     <Button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white border border-transparent hover:bg-gray-50 hover:text-orange-500 hover:border-orange-500" children="Get Started !!" />
                   </Link>
                </div>
             </div>
