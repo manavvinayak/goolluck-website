@@ -85,7 +85,7 @@ const Contact = () => {
             <div className="flex flex-col items-center lg:items-start gap-3">
               <div className="flex items-center gap-2 ">
                 <FaLocationDot size={30} className="text-secondary" />
-                <p className="w-full max-w-[30rem] text-base sm:text-xl lg:text-2xl font-medium text-center    md:text-start">
+                <p className="unit  items-center max-w-[900px]  font-serif text-xl  ">
                  Unit-15, Ground Floor, Star Tower, Sector 30, Gurugram, Haryana, 122001
                   </p>
 
@@ -93,7 +93,7 @@ const Contact = () => {
 
               <div className="flex items-center gap-2">
                 <FaPhone size={30} className="text-secondary" />
-                <p className="text-center text-lg lg:text-2xl font-medium lg:text-start">
+                <p className="text-center text-xl lg:text-2xl font-medium lg:text-start">
                   9999974265
                 </p>
               </div>

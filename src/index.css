@@ -103,6 +103,12 @@ body {
   }
 }
 
+.unit {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+}
+
 .glass {
   transform-style: preserve-3d;
   position: absolute;

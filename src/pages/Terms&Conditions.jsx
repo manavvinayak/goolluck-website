@@ -11,8 +11,8 @@ const TermsAndConditions = () => {
       </p>
       
       <section className="mb-6">
-        <h2 className="md:text-2xl font-semibold text-secondary mb-2">1. Introduction</h2>
-        <p className="md:text-2xl">
+        <h2 className="text-2xl font-semibold text-secondary mb-2">1. Introduction</h2>
+        <p className="md:text-2xl text-xl">
           Welcome to <strong>GOOLLUCK INVESTMENTS</strong>. By accessing or using our website and services, you agree to comply with and be bound by these Terms and Conditions. Please read them carefully before using our services.
         </p>
       </section>
@@ -33,7 +33,7 @@ const TermsAndConditions = () => {
       
       <section className="mb-6">
         <h2 className="text-2xl font-semibold text-secondary mb-2">4. User Responsibilities</h2>
-        <ul className="list-disc list-inside md:text-2xl">
+        <ul className="list-disc list-inside md:text-2xl text-xl">
           <li>You agree to use our website and services lawfully and ethically.</li>
           <li>You will not engage in any fraudulent, illegal, or disruptive activities.</li>
           <li>You are responsible for maintaining the confidentiality of your account credentials.</li>
@@ -42,7 +42,7 @@ const TermsAndConditions = () => {
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold text-secondary mb-2">5. Payment and Refund Policy</h2>
-        <ul className="list-disc list-inside md:text-2xl">
+        <ul className="list-disc list-inside md:text-2xl text-xl">
           <li>Fees must be paid in full before access is granted.</li>
           <li>Refunds may be issued at our discretion, subject to our refund policy.</li>
         </ul>
@@ -79,7 +79,7 @@ const TermsAndConditions = () => {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold text-secondary mb-2">10. Governing Law</h2>
         <p className="md:text-2xl text-xl  ">
-          These Terms and Conditions shall be governed by the laws of [Insert Jurisdiction]. Any disputes shall be subject to the courts in that jurisdiction.
+          These Terms and Conditions shall be governed by some laws. Any disputes shall be subject to the courts in that jurisdiction.
         </p>
       </section>
 
@@ -89,10 +89,13 @@ const TermsAndConditions = () => {
           If you have any questions, please contact us at:
         </p>
         <p className="mt-2 font-semibold text-xl">GOOLLUCK INVESTMENTS</p>
+        <div className="text-xl">
         <p>Office No-15, Ground Floor, Star Tower, Sector-30, Gurugram, India</p>
         <p>Email: goolluck1@outlook.com</p>
         <p>Phone: +919999974265,
         0124-4200901, 4200903</p>
+        </div>
+       
       </section>
 
       <p className="text-center mt-6 text-gray-500 text-xl">

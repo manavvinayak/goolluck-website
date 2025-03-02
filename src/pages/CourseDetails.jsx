@@ -30,14 +30,14 @@ const CourseDetails = () => {
     <div className="min-h-screen  p-6 font-sans">
       <div className="max-w-8xl mx-auto bg-gray-900 shadow-2xl rounded-lg overflow-hidden">
         {/* Header Section */}
-        <div className="bg-gradient-to-r from-orange-500 to-orange-700 py-8 px-6 text-center font-montserrat">
-          <h1 className="text-5xl font-bold uppercase text-white ">
-            {courseId} Trading Masterclass
-          </h1>
-          <p className="mt-2 text-xl font-medium text-gray-200 ">
-            Unlock the secrets of successful trading and elevate your portfolio!
-          </p>
-        </div>
+        <div className="bg-gradient-to-r from-orange-500 to-orange-700 py-6 px-4 text-center font-montserrat">
+               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold uppercase text-white leading-tight">
+                 {courseId} Trading Masterclass
+               </h1>
+               <p className="mt-2 text-lg sm:text-xl font-medium text-gray-200 px-2">
+                 Unlock the secrets of successful trading and elevate your portfolio!
+               </p>
+             </div>
 
         {/* Form Section */}
         <div className="p-6 text-gray-300">
@@ -82,7 +82,7 @@ const CourseDetails = () => {
             </div>
             {/* Phone Field */}
             <div className="flex items-center space-x-2">
-              <label htmlFor="phone" className="block text-lg font-medium  md:w-1/3  md:pl-6 md:pr-9">
+              <label htmlFor="phone" className="flex items-center  text-lg font-medium  md:w-1/3  md:pl-6">
                 <FaPhone className="inline-block mr-6" />
                 Phone
               </label>
@@ -109,7 +109,7 @@ const CourseDetails = () => {
           {/* Submit Button */}
           <button
            type="submit"
-           className=" block w-full sm:w-3/4 md:w-1/2 lg:w-1/3 mx-auto py-3 px-6 rounded-lg shadow-lg bg-orange-500 hover:bg-orange-600 text-white font-bold text-base sm:text-lg md:text-xl transition-all duration-300  ease-in-out transform hover:scale-105"
+           className=" block w-full sm:w-3/4 md:w-1/2 lg:w-1/3 mx-auto py-3 px-6 rounded-lg shadow-lg bg-orange-500  text-white font-bold text-base sm:text-lg md:text-xl transition-all  hover:bg-transparent duration-300 hover:text-white"
            >
           Register and Pay
          </button>

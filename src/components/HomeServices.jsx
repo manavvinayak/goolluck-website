@@ -31,7 +31,9 @@ const HomeServices = ({ homeServices }) => {
                            <span className="text-gray-800 text-lg sm:text-2xl lg:text-3xl font-bold mb-2 sm:mb-3 line-clamp-2">
                               {service.label}
                            </span>
-                           <span className="text-xs sm:text-sm lg:text-lg text-justify text-primary px-2 line-clamp-6">
+                           <span className="text-xs sm:text-sm lg:text-lg text-justify text-primary px-2 break-words">
+
+
                               {service.desc}
                            </span>
                         </div>
