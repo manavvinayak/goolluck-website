@@ -6,9 +6,9 @@ const TermsAndConditions = () => {
       <h1 className="text-4xl md:text-5xl font-bold text-center text">
         Terms and <span>Conditions </span>
       </h1>
-      <p className="md:text-lg text-gray-600 text-center mb-6">
+      {/* <p className="md:text-lg text-gray-600 text-center mb-6">
         <strong>Effective Date:</strong> Date
-      </p>
+      </p> */}
       
       <section className="mb-6">
         <h2 className="text-2xl font-semibold text-secondary mb-2">1. Introduction</h2>
